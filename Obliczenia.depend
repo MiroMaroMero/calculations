@@ -1,15 +1,15 @@
 # depslib dependency file v1.0
-1652963137 source:c:\users\marek\documents\c++\codeblock\2022_04\obliczenia\main.cpp
+1652968193 source:c:\users\marek\documents\c++\codeblock\2022_04\obliczenia\main.cpp
 	<iostream>
 	"obliczenia.h"
 
-1652963192 source:c:\users\marek\documents\c++\codeblock\2022_04\obliczenia\obliczenia.cpp
+1652967774 source:c:\users\marek\documents\c++\codeblock\2022_04\obliczenia\obliczenia.cpp
 	<iostream>
 	"obliczenia.h"
 	<string>
 	<cstdlib>
 	<windows.h>
 
-1652963614 c:\users\marek\documents\c++\codeblock\2022_04\obliczenia\obliczenia.h
+1652968189 c:\users\marek\documents\c++\codeblock\2022_04\obliczenia\obliczenia.h
 	<iostream>
 
