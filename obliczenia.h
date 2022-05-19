@@ -13,6 +13,7 @@ public:
 
 class adresIP :public Obliczenia
 {
+    string t_okted[4];
     int okted[4];
     int ile_podsieci; //ile ma byc podsieci na tym adresie
     int ile_komputerow;

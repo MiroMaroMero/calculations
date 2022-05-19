@@ -22,10 +22,12 @@ void adresIP::Oblicz(string adres)
 
             if(i==3)
             {
+                t_okted[i]=kopia;
                 okted[i]=atoi(kopia.c_str());
             }
             else
             {
+                t_okted[i]=kopia;
                 okted[i]=atoi((kopia.substr(0,pozycja)).c_str());
                 kopia.erase(0,pozycja+1);
             }
@@ -44,11 +46,12 @@ void adresIP::Oblicz(string adres)
     {
         int liczba = okted[i];
 
-        while(liczba%2!=0)
+        for(int e=0;e<3;e++)
         {
-           cout << liczba%2 << endl;
+            cout << "Liczba przed: " << liczba << endl;
+            cout << "Reszta: " << liczba%2 << endl;
             liczba = liczba/2;
-            cout << liczba << endl;
+            cout << "Po podzieleniu: " << liczba << endl;
         }
 
     }
